@@ -7,7 +7,7 @@ export const Bio = {
         'Programmer',
     ],
     description:
-        "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+        "I am a motivated and versatile individual, always eager to take on new challenges. I am committed to delivering excellence and high-quality results. With a positive mindset and a dedication to growth, I am poised to make a meaningful impact and accomplish remarkable achievements.",
     github: 'https://https://github.com/wraith92',
     resume:
         "",

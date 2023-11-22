@@ -6,6 +6,11 @@ import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import styled from 'styled-components';
 import Footer from './components/Footer';
+import HeroSection from "./components/HeroSection";
+import ProjectDetails from "./components/ProjectDetails";
+import Skills from "./components/Skills";
+
+
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -31,9 +36,15 @@ function App() {
       <Router >
         <Navbar />
         <Body>
+          <HeroSection />
           <Wrapper>
-            <Footer />
+            <Skills />
+        
           </Wrapper>
+          <Footer />
+          {openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          }
         </Body>
       </Router>
     </ThemeProvider>
