@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio-dahmen/static/css/main.bf538fe7.css",
+    "main.js": "/portfolio-dahmen/static/js/main.2777b6f0.js",
+    "static/media/HeroImage.png": "/portfolio-dahmen/static/media/HeroImage.43e3be0879a1f7e7145c.png",
+    "index.html": "/portfolio-dahmen/index.html",
+    "main.bf538fe7.css.map": "/portfolio-dahmen/static/css/main.bf538fe7.css.map",
+    "main.2777b6f0.js.map": "/portfolio-dahmen/static/js/main.2777b6f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.2777b6f0.js"
+  ]
+}
