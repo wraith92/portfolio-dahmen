@@ -9,6 +9,10 @@ import Footer from './components/Footer';
 import HeroSection from "./components/HeroSection";
 import ProjectDetails from "./components/ProjectDetails";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 
 
 
@@ -39,7 +43,12 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
-        
+            <Experience />
+          </Wrapper>
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Wrapper>
+            <Education />
+            <Contact />
           </Wrapper>
           <Footer />
           {openModal.state &&
